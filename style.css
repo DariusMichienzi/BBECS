@@ -70,7 +70,7 @@ nav a:hover {
   width: 100%;
   max-width: 100%;
   height: auto;
-    object-fit: contain;
+/*     object-fit: contain; */ 
   display: block;
   margin: 20px auto;
   border-radius: 10px;
