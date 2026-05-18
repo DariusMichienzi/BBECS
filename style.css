@@ -8,6 +8,7 @@ body {
 /* Header */
 header {
   background-color: #b01c2e;
+  color: #333;
   padding: 20px;
 }
 
@@ -60,10 +61,9 @@ nav a:hover {
 }
 
 .logo-footer img {
-  height: 80px;
+  height: 50px;
   width: auto;
   object-fit: contain;
-  flex-wrap: wrap;
 }
 
 .main-image {
