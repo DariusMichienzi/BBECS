@@ -1,28 +1,48 @@
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  margin: 0;
-  padding: 40px;
+  color: #333;
 }
 
+/* Header */
+header {
+  background-color: #800020; /* Burgundy red */
+  padding: 20px;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
 .container {
-  max-width: 900px;
-  margin: auto;
+  max-width: 1000px;
+  margin: 30px auto;
   background: white;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-h1 {
-  color: #333;
-}
-
-p {
-  color: #555;
-  line-height: 1.6;
-}
-
+/* PDF Viewer */
 .pdf-container {
   margin-top: 20px;
   border: 1px solid #ccc;
