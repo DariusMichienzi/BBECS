@@ -64,7 +64,6 @@ nav a:hover {
   height: 500px;
   width: auto;
   object-fit: contain;
-  flex-wrap: wrap;
 }
 
 .main-image {
